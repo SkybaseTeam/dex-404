@@ -1,8 +1,3 @@
-// @title xyzDEX Factory Cairo 2.0
-// @author Yuhan Zhang
-// @license MIT
-// @notice Factory to create and register new pairs
-// Based on the Uniswap V2 Factory contract https://github.com/Uniswap/v2-core/blob/master/contracts/UniswapV2Factory.sol
 
 use starknet::ContractAddress;
 use starknet::ClassHash;

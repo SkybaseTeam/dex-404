@@ -1,9 +1,3 @@
-// @title xyzDEX Pair Cairo 2.0
-// @author Yuhan Zhang
-// @license MIT
-// @notice Low level pair contract
-// Based on the Uniswap V2 pair https://github.com/Uniswap/v2-core/blob/master/contracts/UniswapV2Pair.sol
-// Also an ERC20 token
 
 use starknet::ContractAddress;
 use starknet::ClassHash;
@@ -71,7 +65,7 @@ trait IPair<TContractState> {
 
 #[starknet::contract]
 mod Pair {
-    use xyzdex::utils::erc20::ERC20;
+    use vendex::utils::erc20::ERC20;
     use traits::Into; // TODO remove intos when u256 inferred type is available
     use option::OptionTrait;
     use array::{ArrayTrait, SpanTrait};

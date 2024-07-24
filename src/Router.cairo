@@ -1,11 +1,5 @@
-// @title xyzDEX router for stateless execution of swaps Cairo 2.0
-// @author Yuhan Zhang
-// @license MIT
-// Based on the Uniswap V2 Router https://github.com/Uniswap/v2-periphery/blob/master/contracts/UniswapV2Router02.sol
-
 use starknet::ContractAddress;
 use starknet::ClassHash;
-
 //
 // External Interfaces
 //
